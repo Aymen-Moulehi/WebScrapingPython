@@ -1,17 +1,10 @@
-# Web-Scraping-with-Python
-Get Random professeur name for my PFE using python and my university website 😄😄 .
-### Requirements.
-The Nesaiscre library is very important to install 
-
- - pip3 install lxml
- - pip3 install requestes
- - pip3 install beautifulsoup4
-
-
-```python
 import requests
 from bs4 import BeautifulSoup
 import random
+
+
+
+
 
 res = requests.get("http://www.fss.rnu.tn/fra/s1269/departements/INC/6/")
 src = res.content
@@ -33,4 +26,7 @@ while(True):
     else:
         print("!!!")
 
-```
+
+
+
+
